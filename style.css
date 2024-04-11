@@ -1,10 +1,14 @@
 
 /* ESTILO GERAL */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 h2.titulo{
     color: #fff;
@@ -390,7 +394,7 @@ form .btn-enviar input{
 /* ESTILO DO RODAPÉ */
 
 footer{
-    padding: 40px 4% ;
+    padding: 30px 4% ;
     box-shadow: 0 0 40px 10px #ffffff1e;
 }
 
@@ -399,7 +403,7 @@ footer .flex{
 }
 
 footer .line-footer{
-    padding: 20px 0;
+    padding: 10px 0;
     
 }
 
