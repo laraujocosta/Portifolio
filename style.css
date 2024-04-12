@@ -310,7 +310,7 @@ section.portifolio .flex{
     width: 360px;
     height: 460px;
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: 50% 0%;
     transition: 8s;
     cursor: pointer;
     border-radius: 40px;
@@ -318,7 +318,7 @@ section.portifolio .flex{
 }
 
 .img-port:hover{
-    background-position: 100% 100%;
+    background-position: 25% 25% ;
 }
 
 .overlay{
@@ -403,7 +403,7 @@ footer .flex{
 }
 
 footer .line-footer{
-    padding: 10px 0;
+    padding: 1px 0;
     
 }
 
