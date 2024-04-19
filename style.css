@@ -15,7 +15,9 @@ h2.titulo{
     font-size: 38px;
     text-align: center;
 }
-
+h4{
+    color: #fff;  
+}
 h2.titulo span{
     color: #5ce1e6 ;
 }
@@ -99,7 +101,7 @@ header nav.menu-desktop ul li{
 .img-topo-site img {
     max-width:300px;
     max-height:250px;
-    border-radius: 50px;
+    border-radius: 100px;
     width: auto;
     height: auto;
 }
@@ -295,6 +297,31 @@ section.sobre .flex{
     transition: .2s;
 }
 
+
+.skills{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.skills_skills{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background-color: rgba(190, 177, 177, 0.2);
+    border-radius:5px;
+    font-weight: 600;
+    color: #aca6a6;
+    font-size: 15px;
+    text-align: center;
+    
+
+
+}
+
+
 /* ESTILO DO PORTiFÓLIO */
 
 section.portifolio{
@@ -427,6 +454,13 @@ footer .line-footer p a{
         flex-direction: column;
     }
 
+    h4{
+        text-align: center; 
+        line-height: 30px; 
+        font-size: 25px;
+        font-weight: 600;
+    }
+
     h2.titulo{
 
         font-size: 34px;
@@ -474,12 +508,32 @@ footer .line-footer p a{
         text-align: center;
     }
 
+
     .btn-social{
         text-align: center;
     }
 
     .img-sobre img{
         width: 100%;
+    }
+
+    .skills{
+        padding: 20px 8%;
+
+        
+    
+    }
+    
+    .skills_skills{
+
+        font-size: 15px;
+        width: 40%;
+        text-align: center;
+        margin-left: 2.5%;
+        
+
+
+    
     }
 
     /* PORTIFOLIO */
